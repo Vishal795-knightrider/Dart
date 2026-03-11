@@ -24,3 +24,10 @@ import 'dart:io';
 //   double sq=num*num;
 //   print("The Square is $sq");
 // }
+
+
+void main(){
+  stdout.write("Enter Salary");
+  int sal=int.parse(stdin.readLineSync()!);
+  print("Salary is : $sal");
+}

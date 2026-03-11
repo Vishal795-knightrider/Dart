@@ -62,7 +62,7 @@
 
 
 //Arrow fn
-void main(){
-  var sq=(n)=>n*n;
-  print(sq(5));
-}
+// void main(){
+//   var sq=(n)=>n*n;
+//   print(sq(5));
+// }
