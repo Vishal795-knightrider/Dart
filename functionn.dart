@@ -52,3 +52,10 @@
 // }
 
 
+//Anonymous fn 
+void main(){
+  var mul=(int a,int b){
+    return a*b;
+  };
+  print(mul(3,4));
+}
