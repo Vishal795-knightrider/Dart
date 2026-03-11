@@ -53,9 +53,16 @@
 
 
 //Anonymous fn 
+// void main(){
+//   var mul=(int a,int b){
+//     return a*b;
+//   };
+//   print(mul(3,4));
+// }
+
+
+//Arrow fn
 void main(){
-  var mul=(int a,int b){
-    return a*b;
-  };
-  print(mul(3,4));
+  var sq=(n)=>n*n;
+  print(sq(5));
 }
